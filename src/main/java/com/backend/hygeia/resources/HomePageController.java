@@ -169,7 +169,7 @@ public class HomePageController {
 			System.out.println(""+mail);
 
 			 final String username = "saadetelif@outlook.com.tr";
-		        final String password = "Superisi123";
+		        final String password = "*****************";
 				Properties props = new Properties();
 				props.put("mail.smtp.auth", "true");
 				props.put("mail.smtp.starttls.enable", "true");

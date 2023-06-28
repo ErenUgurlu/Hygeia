@@ -44,7 +44,7 @@ public class ContactUsController {
 	@RequestMapping("/MailSend")
 	public String getLogin(HttpServletRequest request, HttpServletResponse response, @RequestParam("file") MultipartFile file, Model model){
         final String username = "saadetelif@outlook.com.tr";
-        final String password = "HYGIEA1234deneme";
+        final String password = "***************";
 		String Email = request.getParameter("email");
 		String PhoneNumber = request.getParameter("phonenumber");
 		String Mesaj = request.getParameter("message");
